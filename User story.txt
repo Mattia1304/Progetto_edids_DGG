@@ -1,3 +1,6 @@
+--manca 1 e da controllare
+
+
 User Story 1 – Generazione base di frasi no sense
 
 Titolo: Inserimento frase da analizzare
@@ -5,7 +8,7 @@ Descrizione: Come utente, voglio inserire una frase in italiano o inglese per po
 
 Criteri di accettazione:
 	•	È presente un campo di testo per l'inserimento della frase nel giusto formato([noun] [verb] the [adjective] [noun])
-	•	È possibile selezionare la lingua (IT/EN).
+	•	È possibile selezionare la lingua (IT/EN).    ---sia per l'input che per l'output
 	•	La frase viene validata prima dell'elaborazione
 
 
@@ -19,7 +22,7 @@ Descrizione: Come utente, voglio che il sistema analizzi la struttura grammatica
 
 Criteri di accettazione:
 	•	È utilizzata l’API analyzeSyntax di Google NLP.
-	•	L'output include albero sintattico e POS tag.
+	•	L'output include albero sintattico e POS tag.    ---da verificare---
 
 
 
@@ -43,9 +46,9 @@ User Story 4 – Generazione multipla
 Descrizione: Come utente voglio generare più frasi no sense in un solo clic (es. 5 o 10 alla volta),così da avere una selezione più ampia.
 
 Criteri di accettazione:
-	•	Possibilità di scegliere quante frasi generare
+	•	Possibilità di scegliere quante frasi generare ---
 	•	Visualizzazione in elenco o griglia
-	•	Pulsante “Rigenera tutte” o “Rigenera solo questa”
+	•	Pulsante “Rigenera tutte” o “Rigenera solo questa” ---
 
 
 
@@ -53,18 +56,19 @@ Criteri di accettazione:
 
 
 
-User Story 5 – Esportazione o condivisione delle frasi "Boh ma in realtà questa non m,i piace magari la caviamo vedete voi"
+User Story 5 – Esportazione o condivisione delle frasi   ----"da sistemare integrare con API google"
 
-Descrizione: Come utente voglio poter copiare, scaricare o condividere una frase generata, così da inviarla ad amici o postarla sui social con un solo clic.
+Descrizione: Come utente voglio poter copiare, scaricare o condividere una frase generata, così da inviarla ad amici oppure condividerla via posta elettronica con un solo clic.
 
 Criteri di accettazione:
 	•	Funzionalità “Copia negli appunti”
-	•	Condivisione via link, email o social (es. Twitter/X, WhatsApp)
+	•	Condivisione tramite link o posta elettronica
 
 
 
 
 
+-- SE ABBIAMO TEMPO PER IMPLEMENTARE UN DIZIONARIO PROPRIO
 User Story 6 – Inserimento di parole personalizzate
 
 Descrizione: Come utente voglio inserire parole personalizzate nei dizionari (es. nomi o aggettivi propri), così da ottenere frasi no sense che includano riferimenti specifici o privati.
@@ -87,15 +91,5 @@ Criteri di accettazione:
 
 
 
-
-
-User Story 8 - Selezione della lingua di output
-
-Descrizione: Come utente, voglio scegliere la lingua di output per ottenere frasi in italiano o inglese.
-
-Criteri di accettazione:
-	•	È disponibile un selettore lingua.
-	•	I template e i dizionari sono adattati alla lingua scelta.
-	•	Etichette: frontend, supporto-lingua
 
 
